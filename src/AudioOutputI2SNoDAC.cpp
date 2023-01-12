@@ -18,7 +18,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <Arduino.h>
+#include "Arduino.h"
 #ifdef ESP32
   #include "driver/i2s.h"
 #elif defined(ARDUINO_ARCH_RP2040) || ARDUINO_ESP8266_MAJOR >= 3

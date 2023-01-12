@@ -18,7 +18,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioOutputMixer.h"
 
 AudioOutputMixerStub::AudioOutputMixerStub(AudioOutputMixer *sink, int id) : AudioOutput()

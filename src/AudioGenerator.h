@@ -21,7 +21,7 @@
 #ifndef _AUDIOGENERATOR_H
 #define _AUDIOGENERATOR_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioStatus.h"
 #include "AudioFileSource.h"
 #include "AudioOutput.h"

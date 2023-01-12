@@ -55,6 +55,9 @@ void silk_quant_LTP_gains(
     opus_int32           sum_log_gain_tmp_Q7, best_sum_log_gain_Q7, max_gain_Q7;
     opus_int             gain_Q7;
 
+    // WORKAROUND
+    res_nrg_Q15 = 0;
+    
     /***************************************************/
     /* iterate over different codebooks with different */
     /* rates/distortions, and choose best */

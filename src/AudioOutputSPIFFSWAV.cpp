@@ -20,7 +20,7 @@
 
 #if !defined(ARDUINO_ARCH_RP2040)
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include <FS.h>
 #ifdef ESP32
 #include "SPIFFS.h"

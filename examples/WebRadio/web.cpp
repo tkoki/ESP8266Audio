@@ -18,7 +18,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <Arduino.h>
+#include "Arduino.h"
 #if defined(ARDUINO_ARCH_RP2040)
 // Nothing here
 #else

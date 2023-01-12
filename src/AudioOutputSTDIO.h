@@ -22,7 +22,7 @@
 #ifndef _AUDIOOUTPUTSTDIO_H
 #define _AUDIOOUTPUTSTDIO_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 #ifndef ARDUINO
 
 #include "AudioOutput.h"

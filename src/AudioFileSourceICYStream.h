@@ -21,7 +21,7 @@
 #if defined(ESP32) || defined(ESP8266)
 #pragma once
 
-#include <Arduino.h>
+#include "Arduino.h"
 #ifdef ESP32
   #include <HTTPClient.h>
 #else

@@ -21,7 +21,7 @@
 #ifndef AUDIOFILESTREAM_H
 #define AUDIOFILESTREAM_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioFileSource.h"
 
 class AudioFileStream : public Stream

@@ -33,7 +33,7 @@
 //#ifdef HAVE_CONFIG_H
 #  include "config.h"
 //#endif
-#include <Arduino.h>
+#include "Arduino.h"
 #include <pgmspace.h>
 
 //#include <stdio.h>

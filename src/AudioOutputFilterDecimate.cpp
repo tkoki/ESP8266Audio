@@ -18,7 +18,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioOutputFilterDecimate.h"
 
 AudioOutputFilterDecimate::AudioOutputFilterDecimate(uint8_t taps, const int16_t *tap, int num, int den, AudioOutput *sink)

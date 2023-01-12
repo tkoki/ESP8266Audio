@@ -39,7 +39,7 @@
 */
 #if defined(ESP32) || defined(ESP8266)
 
-#include <Arduino.h>
+#include "Arduino.h"
 #if defined(ESP32)
   #include "driver/i2s.h"
   #include "soc/rtc.h"

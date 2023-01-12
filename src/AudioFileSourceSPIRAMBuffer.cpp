@@ -24,7 +24,7 @@
 
 #if defined(ESP32) || defined(ESP8266)
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioFileSourceSPIRAMBuffer.h"
 
 #pragma GCC optimize ("O3")

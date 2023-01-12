@@ -23,7 +23,7 @@
 #include "AudioOutput.h"
 
 #if defined(ARDUINO_ARCH_RP2040)
-#include <Arduino.h>
+#include "Arduino.h"
 #include <I2S.h>
 #endif
 

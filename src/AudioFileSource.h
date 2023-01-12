@@ -21,7 +21,7 @@
 #ifndef _AUDIOFILESOURCE_H
 #define _AUDIOFILESOURCE_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioStatus.h"
 
 class AudioFileSource

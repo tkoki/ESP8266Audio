@@ -22,7 +22,7 @@
 #pragma once
 #if defined(ESP8266)
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "osapi.h"
 #include "ets_sys.h"
 #include "i2s_reg.h"

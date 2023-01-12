@@ -34,7 +34,7 @@
 #  include "config.h"
 //#endif
 #define PGM_READ_UNALIGNED 0
-#include <Arduino.h>
+#include "Arduino.h"
 #include <pgmspace.h>
 
 #include "private/crc.h"

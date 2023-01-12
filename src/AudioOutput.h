@@ -21,7 +21,7 @@
 #ifndef _AUDIOOUTPUT_H
 #define _AUDIOOUTPUT_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioStatus.h"
 
 class AudioOutput

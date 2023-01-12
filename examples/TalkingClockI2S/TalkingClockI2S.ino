@@ -2,7 +2,7 @@
 // https://github.com/going-digital/Talkie/blob/master/Talkie/examples/Vocab_US_Clock/Vocab_US_Clock.ino
 // Released under GPL v2
 
-#include <Arduino.h>
+#include "Arduino.h"
 
 #if defined(ARDUINO_ARCH_RP2040)
 void setup() {}

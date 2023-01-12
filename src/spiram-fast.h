@@ -25,7 +25,7 @@
 #ifndef spiram_fast_h
 #define spiram_fast_h
 
-#include <Arduino.h>
+#include "Arduino.h"
 
 #ifndef ESP32
 

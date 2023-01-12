@@ -21,7 +21,7 @@
 #ifndef _AUDIOFILESOURCELITTLEFS_H
 #define _AUDIOFILESOURCELITTLEFS_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 #include <LittleFS.h>
 
 #include "AudioFileSource.h"

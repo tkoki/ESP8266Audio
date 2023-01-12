@@ -19,7 +19,7 @@
 */
 
 #if defined(ARDUINO_ARCH_RP2040)
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioOutputPWM.h"
 
 AudioOutputPWM::AudioOutputPWM(long sampleRate, pin_size_t data) {

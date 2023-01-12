@@ -53,7 +53,7 @@ After creation, you need to call the AudioGeneratorXXX::loop() routine from insi
 ## Example
 See the examples directory for some simple examples, but the following snippet can play an MP3 file over the simulated I2S DAC:
 ```cpp
-#include <Arduino.h>
+#include "Arduino.h"
 #include "AudioFileSourceSPIFFS.h"
 #include "AudioGeneratorMP3.h"
 #include "AudioOutputI2SNoDAC.h"

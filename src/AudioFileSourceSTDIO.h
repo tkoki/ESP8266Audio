@@ -22,7 +22,7 @@
 #ifndef _AUDIOFILESOURCESTDIO_H
 #define _AUDIOFILESOURCESTDIO_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 
 #ifndef ARDUINO
 

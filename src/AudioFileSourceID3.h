@@ -21,7 +21,7 @@
 #ifndef _AUDIOFILESOURCEID3_H
 #define _AUDIOFILESOURCEID3_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 
 #include "AudioFileSource.h"
 
